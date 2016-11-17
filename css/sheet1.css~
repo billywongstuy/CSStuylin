@@ -1,0 +1,45 @@
+h1 {
+    color: green;
+    font-family: Ubuntu;
+    font-style: italic;
+}
+
+
+h2 {
+    font-size: 30px;
+    font-family: Courier;
+}
+
+
+h3 {
+    font-style: bold;
+    text-transform: uppercase;
+    
+}
+
+
+body {
+    background-color: yellow;
+}
+
+ul {
+    background-color: blue;
+}
+
+li:nth-child(1) {
+    color: red;
+}
+
+li {
+    padding: 3px 5px;
+    margin: 0 0 4px 0;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+p {
+    text-align: center;
+}
