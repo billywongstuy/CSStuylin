@@ -1,7 +1,12 @@
 .extreme {
     color: orange;
     font-size: 40px;
-    border: 3px solid green;
+    border: 5px solid green;
+    border-radius: 30px;
+}
+
+#head1 {
+    border: 3px solid red;
     border-radius: 30px;
 }
 
@@ -93,11 +98,16 @@ li {
     font-family: Courier;
     color: #A5CC6B;
     text-align: center;
+    font-size: 25px;
 }
 
 
 #tehlulz {
     padding: 15px;
+    border-style: outset;
+    border-radius: 15px;
+    border-color: yellow;
+    border-width: 10px;
 }
 
 #tehlulz a{
