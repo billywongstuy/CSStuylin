@@ -1,0 +1,15 @@
+#draggable {
+    resize: both;
+    border: 2px solid black;
+    padding: 10px;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+#colors-p {
+    position: absolute;
+    clip: rect(10px, 70px, 210px, 10px);
+    //lower top, increase right, increase bottom, lower left
+    //0,60,200,0
+}
