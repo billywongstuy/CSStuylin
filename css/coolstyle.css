@@ -1,15 +1,56 @@
-#draggable {
+body {
+    background-color: lavender;
+    font-family: Ubuntu, Tahoma;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: goldenrod;
+}
+
+marquee {
+    margin: 0 25%;
+    width: 50%;
+}
+
+h2 {
+    font-style: italic;
+    color: navy;
+    border-radius: 20px;
+    border: 10px outset orange;
+    max-width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+#drag {
     resize: both;
-    border: 2px solid black;
-    padding: 10px;
+    border: 2px outset green;
+    padding: 20px;
     overflow: hidden;
-    width: 150px;
+    width: 200px;
     height: 150px;
+    vertical-align: center;
+    text-align: center;
+}
+
+#clipping {
+    margin: 25px;
 }
 
 #colors-p {
     position: absolute;
-    clip: rect(10px, 70px, 210px, 10px);
-    //lower top, increase right, increase bottom, lower left
-    //0,60,200,0
+    clip: rect(180px, 110px, 270px, 20px);
+    /*increase = lower top, increase right, increase bottom, lower left
+    */
+}
+
+
+#floating {
+    float: right;
+}
+
+#float {
+    float: right;
+    border: 5px dashed magenta;
 }
